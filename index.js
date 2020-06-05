@@ -3,11 +3,7 @@
       event.preventDefault();
       addItem($("#shopping-list-entry").val());
       this.reset();
-    }) 
-
-    $(".shopping-item-delete").click(deleteItem());
-  
-  });
+    }); 
 
   function addItem(itemValue) {
    $(".shopping-list").append(
